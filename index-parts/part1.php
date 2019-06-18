@@ -12,4 +12,5 @@
         </div>
     </div>
 </section>
+<div class="o_home_scroll_button">SCROLL</div>
 <!--Home section ends-->

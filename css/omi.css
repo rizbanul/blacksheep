@@ -127,6 +127,7 @@ html{
 .o_home_explore_text{
     margin-top: 20px;
     width: auto;
+    text-align: center;
      -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -148,4 +149,41 @@ html{
 }
 .o_home_explore_text:hover:after{
     width: 0%;
+}
+.o_home_scroll_button{
+    position: absolute;
+    bottom: 1rem;
+    color: #efefef;
+    letter-spacing: 2px;
+    -webkit-text-orientation: upright;
+    -ms-text-orientation: upright;
+    text-orientation: upright;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    font-size: 14px;
+    padding-left: 4px;
+    left: 15%;
+    cursor: pointer;
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+.o_home_scroll_button:before{
+    content: '';
+    position: absolute;
+    bottom: -100%;
+    display: block;
+    width: 2px;
+    height: 200%;
+    background: #ffc029;
+    transition: height .3s;
+}
+.o_home_scroll_button:hover:before{
+    height: 0%;
+}
+.o_home_scroll_button:hover{
+    color: rgba(239, 239, 239, 0.644);
 }
