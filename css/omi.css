@@ -87,12 +87,12 @@ html{
     height: auto;
     position: absolute;
     top: 52%;
-    left: 55%;
+    left: 50%;
     z-index: 2;
     overflow: hidden;
 }
 .o_home_headline{
-    font-size: 6.5rem;
+    font-size: 6rem;
     line-height: 6.5rem;
     letter-spacing: 0.4rem;
     color: #efefef;
