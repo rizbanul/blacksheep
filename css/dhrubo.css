@@ -1,3 +1,19 @@
-.d_test{
-  color: red;
+@font-face {
+  font-family: font1;
+  src: url("fonts/MLBANGEL.TTF");
+}
+
+.d_feel {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.d_img{
+  width:100%;
 }
