@@ -1,0 +1,155 @@
+/*------------------------------------
+-------Normalizing css----------------
+--------------------------------------*/
+*, html, body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+html{
+    font-size: 100% !important;
+}
+/*-------------------------------------------
+-----------Nav bar--------------------------
+---------------------------------------------*/
+.o_nav_container{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+/*    background-color: rgba(0, 0, 0, 0.44);*/
+    transform: translate3d(0px, 0px, 0px);
+}
+.o_burger_menu_wrap{
+    width: 30px;
+    height: 18px;
+    margin: 16px 23px;
+    cursor: pointer;
+    float: left;
+}
+.o_burger_menu_bar{
+    height: 2px;
+    background-color: #efefef;
+    margin-bottom: 4px;
+    cursor: pointer;
+    transition: .25s ease-in-out;
+}
+.o_burger_menu_bar1{
+    width: 85%;
+}
+.o_burger_menu_bar3{
+    width: 70%;
+}
+.o_burger_menu_wrap:hover > .o_burger_menu_bar{
+    width: 100%;
+    cursor: pointer;
+}
+.o_nav_right_wrap{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    float: right;
+}
+.o_nav_right_wrap li{
+    color: #efefef;
+    display: inline;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.o_nav_right_wrap li:hover{
+    color: #878387;
+}
+.o_nav_right_wrap li:first-child{
+    border-right: 2px solid #ffc029;
+}
+/*-------------------------------------------
+-----------Home Page--------------------------
+---------------------------------------------*/
+.o_home_full_container{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.o_home_img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.o_home_img_text_box{
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 52%;
+    left: 55%;
+    z-index: 2;
+    overflow: hidden;
+}
+.o_home_headline{
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.4rem;
+    color: #efefef;
+    overflow-y: hidden;
+    font-weight: 100;
+    margin-bottom: 50PX;
+}
+.o_home_button_wrap{
+    display: flex;
+    color: #efefef;
+    font-size: 0.79rem;
+    letter-spacing: 0.25rem;
+    font-weight: 600;
+}
+.o_home_signup_button{
+    width: auto;
+    border: 2px solid #efefef;
+    padding: 1rem;
+    overflow: hidden;
+    margin-right: 12PX;
+    margin-left: 30%;
+}
+.o_home_signup_button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+.o_home_or_text{
+    margin-top: 20px;
+    width: auto;
+    margin-right: 12PX;
+}
+.o_home_explore_text{
+    margin-top: 20px;
+    width: auto;
+     -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.o_home_explore_text:after{
+    margin-top: 5px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #ffc029;
+    transition: width .3s;
+}
+.o_home_explore_text:hover{
+    color: #ffc029;
+    cursor: pointer;
+}
+.o_home_explore_text:hover:after{
+    width: 0%;
+}
