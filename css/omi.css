@@ -4,7 +4,6 @@
 *, html, body{
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
 }
 html{
     font-size: 100% !important;
@@ -76,10 +75,6 @@ html{
 ---------------------------------------------*/
 .o_home_full_container{
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
 }
 .o_home_img{
     width: 100%;
@@ -87,7 +82,7 @@ html{
     object-fit: cover;
 }
 .o_home_img_text_box{
-    width: 50%;
+    width: 45%;
     height: 40%;
     position: absolute;
     top: 52%;
