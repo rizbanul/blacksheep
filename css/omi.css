@@ -97,7 +97,7 @@ html{
     letter-spacing: 0.4rem;
     color: #efefef;
     overflow-y: hidden;
-    font-weight: 100;
+    font-weight: 400;
     margin-bottom: 50PX;
 }
 .o_home_button_wrap{
@@ -186,4 +186,63 @@ html{
 }
 .o_home_scroll_button:hover{
     color: rgba(239, 239, 239, 0.644);
+}
+/* -------------------------------------------
+------------we are blacksheep-----------------
+-------------------------------------------- */
+.o_blacksheep_text_wrap{
+    margin-top: 6%;
+    text-align: center;
+}
+.o_home_blacksheep_video_wrap{
+    text-align: center;
+}
+.o_blacksheep_text_wrap p{
+    color: #878387;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+}
+.o_blacksheep_text_wrap h2{
+    font-size: 3.5rem;
+    letter-spacing: 0.64rem;
+    font-weight: 300;
+    line-height: 4.67rem;
+    color: #272227;
+}
+.o_video_credit{
+    letter-spacing: 0;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+.o_video_credit_link{
+    width: 23%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+.o_video_credit_link span{
+    width: auto;
+    color: #878387;
+    font-size: 0.79rem;
+    letter-spacing: 0.25rem;
+    font-weight: 400;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.o_video_credit_link span:after{
+    margin-top: 5px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #ffc029;
+    transition: width .3s;
+}
+.o_video_credit_link span:hover{
+    color: #272227;
+}
+.o_video_credit_link span:hover:after{
+    width: 0%;
 }
