@@ -35,7 +35,14 @@
   </head>
 
   <body>
-
-    <nav>
-        header part goes here
-    </nav>
+      <nav class="o_nav_container">
+          <div class="o_burger_menu_wrap">
+              <div class="o_burger_menu_bar o_burger_menu_bar1"></div>
+              <div class="o_burger_menu_bar o_burger_menu_bar2"></div>
+              <div class="o_burger_menu_bar o_burger_menu_bar3"></div>
+          </div>
+          <div class="o_nav_right_wrap">
+              <li>SCHEDULE</li>
+              <li>CONTACT</li>
+          </div>
+      </nav>
