@@ -7,6 +7,7 @@
 }
 html{
     font-size: 100% !important;
+    overflow-x: hidden;
 }
 /*-------------------------------------------
 -----------Nav bar--------------------------
@@ -82,8 +83,8 @@ html{
     object-fit: cover;
 }
 .o_home_img_text_box{
-    width: 45%;
-    height: 40%;
+    width: auto;
+    height: auto;
     position: absolute;
     top: 52%;
     left: 55%;
