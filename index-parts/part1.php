@@ -12,8 +12,4 @@
         </div>
     </div>
 </section>
-<div style="height: 1000px;">
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/318545404" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-</div>
-
 <!--Home section ends-->
